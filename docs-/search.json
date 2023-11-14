@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Program Plan",
+    "section": "",
+    "text": "Thank you for coming to my Program Plan Meeting!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Eunji Kong",
+    "section": "",
+    "text": "Hello, My name is Eunji Kong."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "courses",
+    "section": "",
+    "text": "library(rio)\nlibrary(here)\n\nhere() starts at /Users/eunjikong/Desktop/UO/Competencies/Program Plan/Program Plan\n\nlibrary(reactable)\n\n\ncourses &lt;- import(here(\"courses.xlsx\"))\n\n\ncourses |&gt; \n  reactable::reactable(filterable = TRUE, searchable = TRUE)"
+  },
+  {
+    "objectID": "competency.html",
+    "href": "competency.html",
+    "title": "Competency",
+    "section": "",
+    "text": "Grade 1Grade 2Grade 3\n\n\nGrade 1 results here!\n\n\nHere are the Grade 2 figures and tables!\n\n\nNow you are seeing Grade 3 stuff!"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "1. Course Lecture2. Course Design"
+  },
+  {
+    "objectID": "service.html",
+    "href": "service.html",
+    "title": "Service",
+    "section": "",
+    "text": "3. Supervision4. Professional Development5. Consultation11. University Participation"
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Scholarly Writing",
+    "section": "",
+    "text": "6. Review of Professional Writing10. Grant/Contract Proposal Application"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "7. Research Proposal8. Research9. Concept or Review Paper12. Personal Professional Development"
+  }
+]
