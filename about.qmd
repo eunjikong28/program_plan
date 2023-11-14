@@ -1,0 +1,12 @@
+---
+title: "Eunji Kong"
+image: "images/profile_pic1.png"
+about:
+  template: jolla
+  links: 
+    - icon: github
+      text: GitHub
+      href: https://eunjikong28.github.io
+---
+
+Hello, My name is Eunji Kong.

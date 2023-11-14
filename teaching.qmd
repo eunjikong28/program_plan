@@ -1,0 +1,16 @@
+---
+title: "Teaching"
+---
+
+::: panel-tabset
+## 1. Course Lecture
+
+![](images/1.png)
+
+## 2. Course Design
+
+![](images/2.png)
+
+:::
+
+

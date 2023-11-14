@@ -1,0 +1,21 @@
+---
+title: "Service"
+---
+
+::: panel-tabset
+## 3. Supervision
+
+![](images/3.png)
+
+## 4. Professional Development
+
+![](images/4.png)
+
+## 5. Consultation
+
+![](images/5.png)
+
+## 11. University Participation
+
+![](images/11.png)
+:::

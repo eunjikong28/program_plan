@@ -1,0 +1,13 @@
+---
+title: "Scholarly Writing"
+---
+
+::: panel-tabset
+## 6. Review of Professional Writing
+
+![](images/6.png)
+
+## 10. Grant/Contract Proposal Application
+
+![](images/10.png)
+:::

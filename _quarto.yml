@@ -1,0 +1,57 @@
+project:
+  type: website
+
+website:
+  title: "Eunji's Program Plan"
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: "About Eunji"
+        file: about.qmd
+      - text: "Specialization"
+        file: specialization.qmd
+      - text: "Courses"
+        file: courses.qmd
+      - text: "Competency"
+        file: competency.qmd
+      
+  sidebar: 
+    - title: "Specialization"
+      style: "docked"
+      background: light
+      contents:
+        - text: "Specialization"
+          file: specialization.qmd
+        - text: "- Holisitc Perspective on Autism"
+          file: autism.qmd
+        - text: "- Optimization of Social Communication Interventions"
+          file: optimization.qmd
+        - text: "- Education Data Science"
+          file: eds.qmd
+        
+    - title: "Courses"
+      contents:
+        - courses.qmd
+
+    - title: "Competency"
+      contents:
+        - text: "Competency"
+          file: competency.qmd
+        - text: "Teaching"
+          file: teaching.qmd
+        - text: "Service"
+          file: service.qmd
+        - text: "Scholarly Writing"
+          file: writing.qmd
+        - text: "Research"
+          file: research.qmd
+          
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+    toc: true
+
+editor: visual
+

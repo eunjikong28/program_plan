@@ -1,0 +1,21 @@
+---
+title: "Research"
+---
+
+::: panel-tabset
+## 7. Research Proposal
+
+![](images/7.png)
+
+## 8. Research
+
+![](images/8.png)
+
+## 9. Concept or Review Paper
+
+![](images/9.png)
+
+## 12. Personal Professional Development
+
+![](images/12.png)
+:::

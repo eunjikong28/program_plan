@@ -1,0 +1,33 @@
+---
+title: "Courses"
+execute: 
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r}
+library(rio)
+library(here)
+library(reactable)
+library(tidyverse)
+```
+
+```{r}
+courses <- import(here("courses.xlsx")) |> 
+  select (- "Credits")
+  
+```
+
+```{r}
+courses |> 
+  reactable::reactable(filterable = TRUE, 
+                       searchable = TRUE,
+                       columns = list(
+                         Year = colDef(width = 50),
+                         Term = colDef(width = 120),
+                         Course = colDef(width = 120), 
+                         Reason = colDef(width = 200),
+                         Instructor = colDef(width = 120)
+                       )) 
+```
