@@ -5,7 +5,6 @@ title: "Teaching"
 ::: panel-tabset
 ## 1. Course Lecture
 
-
 ```{r}
 #| include = FALSE 
 library(kableExtra)
@@ -35,9 +34,7 @@ competency1 %>%
   add_header_above(c("Competency Description: Prepare and present at least in-person two lectures in university courses." = 6), background = "lightgrey")
 ```
 
-
 ## 2. Course Design
-
 
 ```{r}
 #| include = FALSE 
@@ -66,5 +63,4 @@ competency2 %>%
   add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
   add_header_above(c("Competency Description: Design or co-design at least one course in an area of specialization." = 6), background = "lightgrey")
 ```
-
 :::

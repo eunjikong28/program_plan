@@ -2,8 +2,10 @@
 title: "Research"
 ---
 
+
 ::: panel-tabset
 ## 7. Research Proposal
+
 
 ```{r}
 #| include = FALSE 
@@ -34,7 +36,9 @@ competency7 %>%
   add_header_above(c("Competency Description: Design at least two research study proposals prior to dissertation. " = 6), background = "lightgrey")
 ```
 
+
 ## 8. Research
+
 
 ```{r}
 #| include = FALSE 
@@ -64,7 +68,9 @@ competency8 %>%
   add_header_above(c("Competency Description: Conduct at least one research study prior to dissertation (alone or assuming major responsibility for planning, executing, and writing up the study). " = 6), background = "lightgrey")
 ```
 
+
 ## 9. Concept or Review Paper
+
 
 ```{r}
 #| include = FALSE 
@@ -93,7 +99,9 @@ competency9 %>%
   add_header_above(c("Competency Description: Write a concept paper or systematic literature review in an area of specialization (e.g., 25-40 pages, including tables and references)" = 6), background = "lightgrey")
 ```
 
+
 ## 12. Personal Professional Development
+
 
 ```{r}
 #| include = FALSE 
@@ -122,4 +130,6 @@ competency12 %>%
   add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
   add_header_above(c("Competency Description: In consultation with advisor and/or program committee faculty, determine two additional activities to enhance your professional competency in specialization areas." = 6), background = "lightgrey")
 ```
+
 :::
+

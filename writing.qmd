@@ -29,7 +29,6 @@ competency6 %>%
   add_header_above(c("Competency Description: Prepare a minimum of five written review " = 3), background = "lightgrey")
 ```
 
-
 ## 10. Grant/Contract Proposal Application
 
 ```{r}
@@ -59,5 +58,4 @@ competency10 %>%
   add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
   add_header_above(c("Competency Description: Write and submit a complete external (e.g., foundation) grant/contract application as lead author or assist in the completion and submission of a major external grant application (e.g., >$50,000) " = 6), background = "lightgrey")
 ```
-
 :::
