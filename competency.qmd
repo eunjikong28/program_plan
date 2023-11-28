@@ -1,6 +1,7 @@
 ---
 title: "Competency"
 toc: false
+output: html
 ---
 
 [Teaching](teaching.qmd)
