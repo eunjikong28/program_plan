@@ -1,3 +1,22 @@
 ---
 title: "Competency"
+toc: false
 ---
+
+
+[Teaching](teaching.qmd)
+
+![](images/teaching.jpeg){width=300}
+----------------------
+[Service](service.qmd)
+
+![](images/service.jpeg){width=300}
+----------------------
+[Scholarly Writing](writing.qmd)
+
+![](images/writing.jpeg){width=300}
+----------------------
+[Research](research.qmd)
+
+![](images/research.jpeg){width=300}
+

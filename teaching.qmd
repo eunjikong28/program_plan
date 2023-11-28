@@ -5,12 +5,66 @@ title: "Teaching"
 ::: panel-tabset
 ## 1. Course Lecture
 
-![](images/1.png)
+
+```{r}
+#| include = FALSE 
+library(kableExtra)
+
+description <- c("TBD", "TBD")
+autism <- c(" "," ") 
+optimization <- c(" "," ") 
+eds <- c(" "," ") 
+term <- c(" "," ") 
+evaluation <- c(" "," ") 
+
+competency1 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency1 <- as.data.frame(competency1)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency1 %>% 
+  kable(caption = "1.	Course Lecture", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Prepare and present at least in-person two lectures in university courses." = 6), background = "lightgrey")
+```
+
 
 ## 2. Course Design
 
-![](images/2.png)
+
+```{r}
+#| include = FALSE 
+
+description <- c("TBD")
+autism <- c(" ") 
+optimization <- c(" ") 
+eds <- c(" ") 
+term <- c(" ") 
+evaluation <- c(" ") 
+
+competency2 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency2 <- as.data.frame(competency2)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency2 %>% 
+  kable(caption = "1.	Course Design", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Design or co-design at least one course in an area of specialization." = 6), background = "lightgrey")
+```
 
 :::
-
-

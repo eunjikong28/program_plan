@@ -5,9 +5,59 @@ title: "Scholarly Writing"
 ::: panel-tabset
 ## 6. Review of Professional Writing
 
-![](images/6.png)
+```{r}
+#| include = FALSE 
+library(kableExtra)
+
+description <- c("Substantive Sustainability: Why Some Teachers Make Deep and Lasting Change in Professional Development", "Is there really an incorrect way to play? Beyond trial counts in ABA", "Further evaluation of contingencies on lying about homework completion", "The reliability and validity of the Chinese version of the Beach Center Family Quality of Life Scale in families of children with autism in mainland China", "TBD")
+term <- c("Fall 2022", "Fall 2022","Winter 2023","Spring 2023", "TBD")
+evaluation <- c("Harn", "Shire", "Machalicek", "Machalicek", "TBD")
+
+competency6 <- cbind("Program Task Description" = description, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency6 <- as.data.frame(competency6)
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency6 %>% 
+  kable(caption = "6.	Review of Professional Writing", booktabs = TRUE, align = "c") |> 
+  row_spec(0:1, background = "white", italic = TRUE)|> 
+  add_header_above(c("Competency Description: Prepare a minimum of five written review " = 3), background = "lightgrey")
+```
+
 
 ## 10. Grant/Contract Proposal Application
 
-![](images/10.png)
+```{r}
+#| include = FALSE 
+
+description <- "Supporting role in Dr. Shire’s R01 Grant"
+autism <- " "
+optimization <- "X"
+eds <- " "
+term <- "Winter 2024 "
+evaluation <- "Shire"
+
+competency10 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency10 <- as.data.frame(competency10)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency10 %>% 
+  kable(caption = "10.	Grant/Contract Proposal Application", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Write and submit a complete external (e.g., foundation) grant/contract application as lead author or assist in the completion and submission of a major external grant application (e.g., >$50,000) " = 6), background = "lightgrey")
+```
+
 :::

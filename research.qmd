@@ -5,17 +5,128 @@ title: "Research"
 ::: panel-tabset
 ## 7. Research Proposal
 
-![](images/7.png)
+
+```{r}
+#| include = FALSE 
+library(kableExtra)
+
+description <- c("TBD", "TBD")
+autism <- c(" "," ") 
+optimization <- c(" "," ") 
+eds <- c(" "," ") 
+term <- c(" "," ") 
+evaluation <- c(" "," ") 
+
+competency7 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency7 <- as.data.frame(competency7)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency7 %>% 
+  kable(caption = "1.	Research Proposal ", booktabs = TRUE, align = "c") |> 
+  row_spec(1:2, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Design at least two research study proposals prior to dissertation. " = 6), background = "lightgrey")
+```
 
 ## 8. Research
 
-![](images/8.png)
+```{r}
+#| include = FALSE 
+
+description <- c("TBD")
+autism <- c(" ") 
+optimization <- c(" ") 
+eds <- c(" ") 
+term <- c(" ") 
+evaluation <- c(" ") 
+
+competency8 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency8 <- as.data.frame(competency8)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency8 %>% 
+  kable(caption = "1.	Research ", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Conduct at least one research study prior to dissertation (alone or assuming major responsibility for planning, executing, and writing up the study). " = 6), background = "lightgrey")
+```
 
 ## 9. Concept or Review Paper
 
-![](images/9.png)
+
+```{r}
+#| include = FALSE 
+
+description <- c("TBD")
+autism <- c(" ") 
+optimization <- c(" ") 
+eds <- c(" ") 
+term <- c(" ") 
+evaluation <- c(" ") 
+
+competency9 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency9 <- as.data.frame(competency9)
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency9 %>% 
+  kable(caption = "1.	Concept or Review Paper", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Write a concept paper or systematic literature review in an area of specialization (e.g., 25-40 pages, including tables and references)" = 6), background = "lightgrey")
+```
+
 
 ## 12. Personal Professional Development
 
-![](images/12.png)
+
+
+```{r}
+#| include = FALSE 
+
+description <- c("Harvard course: CS50 – Introduction to Computer Science", "New York University course: Introduction to MOST")
+autism <- c(" "," ") 
+optimization <- c(" ","X") 
+eds <- c("X"," ") 
+term <- c("Winter 2023","Winter 2023") 
+evaluation <- c("TBA","TBA") 
+
+competency12 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency12 <- as.data.frame(competency12)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency12 %>% 
+  kable(caption = "1.	Personal Professional Development ", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: In consultation with advisor and/or program committee faculty, determine two additional activities to enhance your professional competency in specialization areas." = 6), background = "lightgrey")
+```
+
 :::
+

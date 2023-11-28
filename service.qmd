@@ -5,17 +5,117 @@ title: "Service"
 ::: panel-tabset
 ## 3. Supervision
 
-![](images/3.png)
+```{r}
+#| include = FALSE 
+library(kableExtra)
+
+description <- c("EI Supervision", "QABA supervision (ask)")
+autism <- c("X","X") 
+optimization <- c("X"," ") 
+eds <- c(" "," ") 
+term <- c("Fall 2022/ Winter 2023","Fall 2023/Winter 2024") 
+evaluation <- c("Shire","(ask)") 
+
+competency2 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency2 <- as.data.frame(competency2)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency2 %>% 
+  kable(caption = "1.	Supervision", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Supervise a student who is completing practicum in an area of specialization for one term  " = 6), background = "lightgrey")
+```
 
 ## 4. Professional Development
 
-![](images/4.png)
+```{r}
+#| include = FALSE 
+
+description <- c("Moss Street – Typical and Atypical Development", "TBD")
+autism <- c("X"," ") 
+optimization <- c(" "," ") 
+eds <- c(" "," ") 
+term <- c("Summer 2023"," ") 
+evaluation <- c("Shire"," ") 
+
+competency4 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency4 <- as.data.frame(competency4)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency4 %>% 
+  kable(caption = "1.	Professional Development", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Plan and conduct at least two different professional developments (e.g., in-services, training programs; minimum of 1hr) in area of specialization.  " = 6), background = "lightgrey")
+```
 
 ## 5. Consultation
 
-![](images/5.png)
+```{r}
+#| include = FALSE 
+
+description <- c("TBD", "TBD")
+autism <- c(" "," ") 
+optimization <- c(" "," ") 
+eds <- c(" "," ") 
+term <- c(" "," ") 
+evaluation <- c(" "," ") 
+
+competency5 <- cbind("Program Task Description" = description, "Holistic Understanding of Autism" = autism, "Optimization of Social Communication Intervention" = optimization, "Educational Data Science/Data Visualization" = eds, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency5 <- as.data.frame(competency5)
+
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency5 %>% 
+  kable(caption = "1.	Consultation ", booktabs = TRUE, align = "c") |> 
+  row_spec(0, background = "white", italic = TRUE) |> 
+  add_header_above(c(" " = 1, "Areas of Specialization" = 3, " " = 2)) |> 
+  add_header_above(c("Competency Description: Conduct at least two consultation activities (e.g., individual, family, district, agency) in an area of specialization." = 6), background = "lightgrey")
+```
 
 ## 11. University Participation
 
-![](images/11.png)
+```{r}
+#| include = FALSE 
+
+description <- c("Doctoral Student Representative for the SPED program", "Doctoral Student Representative for the ABA Master’s program")
+term <- c("2023-2025", "2023-2024")
+evaluation <- c("Harn and Nese", "Machalicek")
+
+competency11 <- cbind("Program Task Description" = description, "Term/ Year" = term, Evaluation = evaluation)
+
+# Convert to data frame
+competency11 <- as.data.frame(competency11)
+
+```
+
+```{r}
+#| echo = FALSE 
+
+competency11 %>% 
+  kable(caption = "1.	University Participation ", booktabs = TRUE, align = "c") |> 
+  row_spec(0:1, background = "white", italic = TRUE)|> 
+  add_header_above(c("Competency Description: Participate in at least one activity related to program, department, college, or university operations for at least one term" = 3), background = "lightgrey")
+```
 :::
